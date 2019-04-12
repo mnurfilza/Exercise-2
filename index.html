@@ -13,14 +13,12 @@
 </head>
 <body>
     <div class="container">
+        <label> Kalkulator Sederhana </label>
         <input type="text" id="mainContent">
         <div class="board">
             <button id="clear" onclick="document.getElementById('mainContent').value=''">C</button>
             <button id="tambah" onclick=" var data = document.getElementById('mainContent').value; document.getElementById('mainContent').value=`${data} + `">+</button>
             <button id="kurang" onclick=" var data = document.getElementById('mainContent').value; document.getElementById('mainContent').value=`${data} - `">-</button>
-            
-        </div>
-        <div class="board">
                 <button id="kali" onclick=" var data = document.getElementById('mainContent').value; document.getElementById('mainContent').value=`${data} * `">*</button>
             <button id="bagi"onclick=" var data = document.getElementById('mainContent').value; document.getElementById('mainContent').value=`${data} / `">/</button>
             <button id="Hasil" onclick="
@@ -46,11 +44,7 @@
                 document.getElementById('mainContent').value = `${res}`;
             }
             
-            }
-            
-            
-            ">=</button>
-            </div>
+            }">=</button>
         </div>
     </div>
 </body>
